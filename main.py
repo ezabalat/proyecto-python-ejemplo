@@ -4,7 +4,11 @@ def saludar(nombre):
 def despedirse(nombre):
     return f"Hasta luego, {nombre}. Sigue programando 💻"
 
+def computadora_actual():
+    return "Cambio realizado desde la segunda computadora 💻"
+
 if __name__ == "__main__":
     nombre = input("Ingrese su nombre: ")
     print(saludar(nombre))
     print(despedirse(nombre))
+    print(computadora_actual())
